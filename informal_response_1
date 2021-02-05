@@ -1,0 +1,49 @@
+1. In traditional programming, the programmer determines the rules by which the input data will decide the output answers. In machine learning, the rules are undetermined or unknown. The programmer feeds both data and answers into the computer and trains the computer to find out the ruling patterns within the input variables.
+
+2. The first run answer was 22.001299. The second run answer was 22.001406. 
+They are not the same but their differences are minimal. This is because the model is basically “guessing” the answer based on the data we provided, 
+and the best it could do is to launch a very close guess as there is no fixed linear pattern between x and y. 
+As often said, no model is correct but some models are useful.
+
+##below is the code for this question:
+
+import pandas as pd
+import tensorflow as tf
+from tensorflow import keras
+import numpy as np
+data = pd.read_csv('gapminder.tsv', sep = '\t')
+data.head(10)
+
+model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[1])])
+
+model.compile(optimizer = 'sgd', loss = 'mean_squared_error')
+
+xs = np.array([-1.0,0.0,1.0,2.0,3.0,4.0],dtype=float)
+ys = np.array([-2.0,1.0,4.0,7.0,10.0,13.0],dtype=float)
+
+model.fit(xs, ys, epochs = 500)
+
+print(model.predict([7.0]))
+
+3. The mobjack house price is nearly 45% higher than the average computed by the model, therefore this one is the worst deal.
+
+##below is the code for this question:
+
+import pandas as pd
+import tensorflow as tf
+from tensorflow import keras
+import numpy as np
+data = pd.read_csv('gapminder.tsv', sep = '\t')
+data.head(10)
+
+model = tf.keras.Sequential([keras.layers.Dense(units=1, input_shape=[1])])
+
+model.compile(optimizer = 'sgd', loss = 'mean_squared_error')
+
+xs = np.array([4, 3, 5.0, 2.0, 2.0, 3.0], dtype = float)
+ys = np.array([399, 97, 347.5, 289, 250.0, 229.0], dtype = float)
+
+model.fit(xs, ys, epochs = 500)
+
+print(model.predict([3.0]))
+

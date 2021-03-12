@@ -20,3 +20,5 @@
 - Then, a one-dense-layer neural network was constructed, and the model convolves through independent variables including the bedroom, bath, and sqft columns. The convolutions are then stacked, and the dependent variable, house prices, was predicted by the independent variables through the model.fit( ) function. The optimizer function used was sgd, and the loss function used was mean squared error. 500 training epochs were conducted. 
 
 - Below is a plot of the training result. It is obvious that the loss was small across training episodes, which means that the model did not improve its prediction accuracy through the training. 
+![.](training.png)
+

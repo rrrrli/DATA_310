@@ -27,6 +27,9 @@ The MSE of the Top 10 most underestimation is 820079440201.5881. The MSE of the 
 
 This is the graph for prediction and the actual listing prices.
 
+![.](predict.png)
+
+
 The MSE of the Top 10 most underestimation is 820079440201.5881. The MSE of the Top 10 most overestimation is 1044263606731.694. The MSE of the Top 10 most accurate observations is 612575903.9848686. The most accurate predictions are ranked 182-191, which is approximately 45-47 percentile. This reflects that the model overall underestimates.  
 
 4. Worst deals

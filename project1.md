@@ -28,5 +28,9 @@ The MSE of the Top 10 most underestimation is 820079440201.5881. The MSE of the 
 4. Worst deals
 - The model gives the worst deal award to the house at 2401 Portofino Ridge Dr, Austin, TX 78735. This house has 3 beds and 3 baths, and has 2131 sqft. It has a astronomical price of 129,000,002,401, while the model predicted it to have a price of 644,946. The resulting difference between the listing and the predicted price is 12255053.42484.However, as shown below, this house is indeed a very fancy mansion. Therefore, maybe vanity value should be added into the model. 
 
-Below is the table for 10 worst deals for house buyers. 
+![.](download.jpg)
+
+Below is a table containing the 10 worst deals for house buyers. 
+
+![.](worst.png)
 

@@ -26,11 +26,20 @@
 The MSE of the Top 10 most underestimation is 820079440201.5881. The MSE of the Top 10 most overestimation is 1044263606731.694. The MSE of the Top 10 most accurate observations is 612575903.9848686. The most accurate predictions are ranked 182-191, which is approximately 45-47 percentile. This reflects that the model overall underestimates. 
 
 4. Worst deals
-- The model gives the worst deal award to the house at 2401 Portofino Ridge Dr, Austin, TX 78735. This house has 3 beds and 3 baths, and has 2131 sqft. It has a astronomical price of 129,000,002,401, while the model predicted it to have a price of 644,946. The resulting difference between the listing and the predicted price is 12255053.42484.However, as shown below, this house is indeed a very fancy mansion. Therefore, maybe vanity value should be added into the model. 
+- The model gives the worst deal award to the house at 2401 Portofino Ridge Dr, Austin, TX 78735. This house has 3 beds and 3 baths, and has 2131 sqft. It has a astronomical price of 129,000,002,401, while the model predicted it to have a price of 644,946. The resulting difference between the listing and the predicted price is 12255053.42484. However, as shown below, this house is indeed a very fancy mansion. Therefore, maybe vanity value and the irresistible and evil human desire of showing high monetary power should be added into the model. 
 
 ![.](download.jpg)
 
 Below is a table containing the 10 worst deals for house buyers. 
 
 ![.](worst.png)
+
+5. Best deals
+- The model ranks the house at 1705 Harliquin Run, Austin, TX 78758 to be the best deal for buyers among all 400 houses. This house has 8 beds, 10 baths, and is 10887 sqft! The model predicted the price for this house to be 1,867,901, but in fact you can make this dream your own with only 285,000! The resulting difference between the listing and the predicted price is 1582901.03912. This is the true American dream, ladies and gentlemen. If you are a middle-aged parent with 6-7 noisy children, this house would indeed make life so much better for you. You can use all that extra money to buy a jet, have a pet crocodile, or endorse a rediculous republican politician (don't).
+
+Below is a table containing the 10 best deals for house buyers. 
+
+![.](best.png)
+
+
 

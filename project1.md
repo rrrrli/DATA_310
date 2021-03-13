@@ -22,3 +22,11 @@
 - Below is a plot of the training result. It is obvious that the loss was small across training episodes, which means that the model did not improve its prediction accuracy through the training. 
 ![.](training.png)
 
+3. Model output analysis:
+The MSE of the Top 10 most underestimation is 820079440201.5881. The MSE of the Top 10 most overestimation is 1044263606731.694. The MSE of the Top 10 most accurate observations is 612575903.9848686. The most accurate predictions are ranked 182-191, which is approximately 45-47 percentile. This reflects that the model overall underestimates. 
+
+4. Worst deals
+- The model gives the worst deal award to the house at 2401 Portofino Ridge Dr, Austin, TX 78735. This house has 3 beds and 3 baths, and has 2131 sqft. It has a astronomical price of 129,000,002,401, while the model predicted it to have a price of 644,946. The resulting difference between the listing and the predicted price is 12255053.42484.However, as shown below, this house is indeed a very fancy mansion. Therefore, maybe vanity value should be added into the model. 
+
+Below is the table for 10 worst deals for house buyers. 
+

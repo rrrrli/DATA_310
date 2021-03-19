@@ -7,5 +7,5 @@
 
 [Informal Response 4](https://github.com/rrrrli/DATA_310/blob/master/feb_25.md)
 
-[Project 1](https://github.com/rrrrli/DATA_310/blob/master/project1.md)
+[Project 1](https://rrrrli.github.io/DATA_310/project1.md)
 

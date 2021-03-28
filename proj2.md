@@ -1,4 +1,10 @@
-## Project 2 ##
+# Project 2 #
+
+The country I chose is Tajikstan.
+
+## Model 1 ##
+
+
 
 ### Using the R script provided, split and sample your DHS persons data and evaluate the AUC - ROC values you produce. Which "top_model" performed the best (had the largest AUC)? ###
 Below is the chart containing the information of the best 15 models: 
@@ -32,5 +38,22 @@ I chose model 10 because it has the largest mean value (0.602). Among the four m
 
 Here is the five wealth outcomes predicted by model 10:
 ![.](lr_auc_11.png) 
-
 The model seems to be able to differentiate 1, 4, and 5 from each other and from 2 and 3, but the model could not differentiate between 2 and 3 very well because these two graphs looked very similar. This may be because 2 and 3 represent the middle-income families with relatively similar wealth status and therefore the model couldn't distinguish between them. Overall, 1-4 did not perform well because the area under the curve is not large for all of these graphs. This may be that since Tajikstan is a authoritarian dictatorship and a low-income economy, the majority of the people are low income (even the "middle class") compared to developing and developed nations. Therefore it was hard for the model to distinguish among wealth group 1-4. In comparison, the model distinguished the fifth wealth group, which represents the wealthiest class in the nation. 
+
+## Model 2 ##
+### Using the R script provided, set up your random forest model and produce the AUC - ROC values for the randomly selected predictors
+![.](rf.png) 
+### and the minimal node size, again with wealth as the target. ### 
+Below is a graph of the minimal node size:
+![.](rf_res.png) 
+### How did your random forest model fare when compared to the penalized logistic regression? Provide your ROC plots and interpret them. ###
+ROC plot for random forest model:
+![.](rf_auc.png)
+Judging from the plot, the AUC of the random forest model looks very similar compared to the penalized logistic regression model. However, the random forest performed slightly better in wealth group 1 than the penalized LR did. In wealth group 2, 3, 4, and 5 the two models performed similarly. Judging from the mean values, the penalized LR slice 10 has a mean value of 0.601, while the RF model has a slightly bigger value of 0.611.
+
+### Are you able to provide a plot that supports the relative importance of each feature's contribution towards the predictive power of your random forest ensemble model? ###
+As seen on this graph, the results of the two models are highly similar:
+![.](rf_lr_auc.png)
+
+
+

@@ -55,5 +55,40 @@ Judging from the plot, the AUC of the random forest model looks very similar com
 As seen on this graph, the results of the two models are highly similar:
 ![.](rf_lr_auc.png)
 
+## Model 3 ##
+### Using the python script provided, train a logistic regression model using the tensorflow estimator API and your DHS data, again with wealth as the target. Apply the linear classifier to the feature columns and determine the accuracy, AUC and other evaluative metrics towards each of the different wealth outcomes. ###
 
 
+### Then continue with your linear classifier adding the derived feature columns you have selected in order to extend capturing combinations of correlations (instead of learning on single model weights for each outcome). Again produce your ROC curves and interpret the results. ###
+
+The evaluation for the linear model:
+
+![.](linest.png)
+
+The plots below show that the model performed better than a random model. The histogram showed a bimodal-looking distribution skewed somewhat to the right. The model might have underpredicted values as the model is skewed to the right. The ROC plot has an increasing pattern, which means that the logistic regression model performed better than a random one.
+
+ROC curve:
+![.](3curve.png)
+Predicted probabilities histogram:
+![.](3hist.png)
+
+## Model 4 ##
+### Using the python script provided, train a gradient boosting model using decision trees with the tensorflow estimator. Provide evaluative metrics including a measure of accuracy and AUC. Produce the predicted probabilities plot as well as the ROC curve for each wealth outcome and interpret these results. ###
+Evaluation metrics:
+
+![.](boost.png)
+
+ROC:
+
+![.](4curve.png)
+
+Predicted probability histogram:
+
+![.](4hist.png)
+
+Model 4 seems to have a higher prediction accuracy than model 3 (accuracy = 0.74), and the values are much less underpredicted. 
+
+## Compare all 4 models ##
+
+Model 4 clearly produced the best results, with a prediction accuracy of 0.74.
+The main descrepancy is that the model seems to be unable to distinguish low and middle income groups from the high income groups. This suggests a wide gap between the low & middle income groups and the high income group, and a small gap among the low & income groups. In other words, a small group of people in Tajikstan may be extremely rich, while the rest of the people are relatively low income. Even the middle class might not be significantly richer than the lower class. Considering the political and economic reality of Tajikstan, this might be a possibility. 

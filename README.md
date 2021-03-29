@@ -11,4 +11,5 @@
 
 [Project 2](https://rrrrli.github.io/DATA_310/project2.html)
 
+[Project 2 Heatmaps](https://rrrrli.github.io/DATA_310/project2_heatmaps.html)
 

@@ -13,5 +13,5 @@
 
 [Project 2 Heatmaps](https://rrrrli.github.io/DATA_310/project2_heatmaps.html)
 
-[Informal Response 5] (https://rrrrli.github.io/DATA_310/informal_response_4.html)
+[Informal Response 5](https://rrrrli.github.io/DATA_310/informal_response_4.html)
 

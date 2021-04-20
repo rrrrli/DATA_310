@@ -56,5 +56,11 @@ MAE plot:
 
 ![.](rf_MAE.png)
 
+### Model comparison ###
+
+Based on the 2D difference of sums plots, these two models seem to not differ much in their prediction accuracy. However, the 3D difference of sums plots showed that
+
+When looking at the MSE and MAE values, the ___ model showed larger error compared to _____. 
+
 
 

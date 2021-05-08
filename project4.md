@@ -12,11 +12,11 @@ A pink flamingo             |  A white flamingo, who also doesn't look very heal
 
 ### Data description ###
 
-I'm using a bird dataset from Kaggle, which contains 36609 images of 256 species of birds. The pictures are separated into training, testing, and validation folders. From the dataset, there are 105 flamingo photos in the training folder, 5 in the testing folder, and 5 in the validation folder. ALl images have been labelled with respective bird names (e.g. "ALBATROSS", "FLAMINGO"). 
+I'm using a bird dataset from Kaggle, which contains 36609 images of 256 species of birds. The pictures are separated into training, testing, and validation folders. From the dataset, there are 85 flamingo photos in the training folder, 5 in the testing folder, and 5 in the validation folder. ALl images have been labelled with respective bird names (e.g. "ALBATROSS", "FLAMINGO"). 
 
 ### Model ###
 
-I am using a convolutionary neural network to train the model to recognize different kinds of birds, and then I will test the model's ability to recognize flamingos as well as to tell apart between flamingos and roseate spoonbills. I will also upload several photos of my fluffy toy flamingo, Frederick, into the testing dataset, and see if the model will classify frederick as a flamingo based on the training it received. 
+I am using a convolutionary neural network to train the model to recognize different kinds of birds, and then I will test the model's ability to recognize flamingos as well as to tell apart between flamingos and roseate spoonbills. I will also upload several photos of my fluffy toy flamingo, Frederick, into the testing folder, and see if the model will classify frederick as a flamingo based on the training it received. 
 
 
 

@@ -12,7 +12,7 @@ A pink flamingo             |  A white flamingo, who also doesn't look very heal
 
 ### Data description ###
 
-I'm using a bird dataset from Kaggle, which contains ## images of 256 species of birds. The pictures are separated into training, testing, and validation folders. From the dataset, there are # flamingo photos in the training folder, # in the testing folder, and # in the validation folder. ALl images have been labelled with respective bird names (e.g. "ALBATROSS", "FLAMINGO"). 
+I'm using a bird dataset from Kaggle, which contains 36609 images of 256 species of birds. The pictures are separated into training, testing, and validation folders. From the dataset, there are 105 flamingo photos in the training folder, 5 in the testing folder, and 5 in the validation folder. ALl images have been labelled with respective bird names (e.g. "ALBATROSS", "FLAMINGO"). 
 
 ### Model ###
 

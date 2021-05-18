@@ -19,3 +19,5 @@
 
 [Project 4](https://rrrrli.github.io/DATA_310/project4.html)
 
+[Final video] (https://youtu.be/GnTwrvIZVfM)
+
